@@ -21,7 +21,7 @@ Songs are matched by **how they make you feel over time**, not just how they sou
 
 ## Live Demo
 
-[Try it here](#) 
+[Try it here](#https://emotional-arc-music-recommender.streamlit.app/) 
 
 ## Performance
 
