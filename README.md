@@ -1,4 +1,4 @@
-# 🌊 Emotional Arc Music Recommender
+# Emotional Arc Music Recommender
 
 A novel music recommendation system that matches songs based on **emotional trajectory** rather than just genre or audio similarity.
 
@@ -62,10 +62,10 @@ streamlit run app/app.py
 ├── src/
 │   └── recommender.py          # Recommendation Logic (Inference)
 │
-├── preprocess/                 # 🔬 Research & Data Pipeline
-│   ├── 01_download_data.ipynb  # FMA Dataset Downloader
-│   ├── 02_feature_logic.ipynb  # CLAP + Librosa experimentation
-│   └── 03_batch_process.ipynb  # Batch processing (8,000 tracks)
+├── preprocess/                 # Research & Data Pipeline
+│   ├── download_data.ipynb  # FMA Dataset Downloader
+│   ├── feature_logic.ipynb  # CLAP + Librosa experimentation
+│   └── batch_process.ipynb  # Batch processing (8,000 tracks)
 │
 ├── data/
 │   └── music_data.pkl          # Processed Feature Database
@@ -82,7 +82,7 @@ streamlit run app/app.py
 - [ ] Multi-modal features (lyrics + audio)
 
 
-## 📂 Data Source
+## Data Source
 This project uses the **FMA (Free Music Archive)** dataset:
 > Defferrard, M., Benzi, K., Vandergheynst, P., & Bresson, X. (2017). FMA: A Dataset for Music Analysis.
 
