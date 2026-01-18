@@ -72,7 +72,7 @@ streamlit run app/app.py
 │
 ├── requirements.txt            # App dependencies (Streamlit, Pandas)
 └── README.md
-```text
+```
 
 ## Future Work
 
