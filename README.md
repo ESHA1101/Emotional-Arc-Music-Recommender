@@ -79,7 +79,8 @@ streamlit run app/app.py
 - [ ] API endpoint for third-party integration
 - [ ] Multi-modal features (lyrics + audio)
 
-## License
 
-MIT
----
+## 📂 Data Source
+This project uses the **FMA (Free Music Archive)** dataset:
+> Defferrard, M., Benzi, K., Vandergheynst, P., & Bresson, X. (2017). FMA: A Dataset for Music Analysis.
+
