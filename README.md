@@ -21,7 +21,7 @@ Songs are matched by **how they make you feel over time**, not just how they sou
 
 ## Live Demo
 
-[Try it here](#https://emotional-arc-music-recommender.streamlit.app/) 
+[Try it here](https://emotional-arc-music-recommender.streamlit.app/) 
 
 ## Performance
 
@@ -55,16 +55,17 @@ streamlit run app/app.py
 
 ## Project Structure
 
+```text
 ├── app/
 │   └── app.py                  # Streamlit Web App (Frontend)
 │
 ├── src/
 │   └── recommender.py          # Recommendation Logic (Inference)
 │
-├── preprocess/                 # Research & Data Pipeline
-│   ├── download_data.ipynb  # FMA Dataset Downloader
-│   ├── feature_logic.ipynb  # CLAP + Librosa experimentation
-│   └── batch_process.ipynb  # Batch processing (8,000 tracks)
+├── preprocess/                 # 🔬 Research & Data Pipeline
+│   ├── 01_download_data.ipynb  # FMA Dataset Downloader
+│   ├── 02_feature_logic.ipynb  # CLAP + Librosa experimentation
+│   └── 03_batch_process.ipynb  # Batch processing (8,000 tracks)
 │
 ├── data/
 │   └── music_data.pkl          # Processed Feature Database
